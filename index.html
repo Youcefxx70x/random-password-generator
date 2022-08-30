@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+        <title>password generator</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Generate a</h1>
+             <h1> random password!</h1>
+            <p>Never use an insecure password again</p>
+            <button id="gen" onClick="generate()">Generate password</button>
+            <div id="checks">
+           <div>
+            <input type="radio" name="i" id="lns" checked>
+            <label for="lns">letters,numbers and symbols</label> </div>
+            <div>
+            <input type="radio" name="i" id="ln">
+            <label for="ln">letters and numbers</label> </div>
+            <div>
+            <input type="radio" name="i" id="l">
+            <label for="l">letters only</label> </div>
+        </div>
+            <hr>
+            <input type="text" id="p1" class="p" readonly >
+            <input type="text"id="p2"  class="p" readonly>
+        </div>
+        <script src="code.js"></script>
+
+    </body>
+</html>
